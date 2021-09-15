@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-color: #E0E8FF;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+.main-card {
+    border-radius: 14px 14px 14px 14px;
+    margin: 0 auto;
+    width: 340px;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.hero-img {
+    border-radius: 14px 14px 0 0;
+    max-width: 100%;
+}
+
+.summary-text {
+    font-size: 0.9rem;
+    padding: 0 20px;
+    color: #7E85A0;
+}
+
+.annual-plan {
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 19px;
+    left: 5px;
+    display: inline;
+}
+
+.pricing {
+    background-color: #F8F9FE;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.music-img {
+    position: relative;
+    top: 13px;
+    right: 1px;
+    display: inline;
+}
+
+.price-tag {
+    color: #7E85A0;
+    position: relative;
+    display: inline;
+    right: 84px;
+    top: 5px;
+}
+
+.change {
+    font-size: 0.8rem;
+    position: relative;
+    left: 84px;
+    bottom: 29px;
+    font-weight: 600;
+}
+
+.btn-payment {
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px #666666;
+    color: #ffffff;
+    font-size: 12px;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    border: none;
+    width: 75%;
+    margin-top: 24px;
+    font-weight: 800;
+}
+  }
+  
+  .btn-payment:hover {
+    background: #766CF1;
+    text-decoration: none;
+  }
+
+  .btn-cancel-order {
+    color: #7E85A0;
+    margin-top: 22px;
+    font-weight: 800;
+    width: 75%;
+    border: none;
+    background: none;
+  }
