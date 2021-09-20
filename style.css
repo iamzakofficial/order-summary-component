@@ -67,6 +67,11 @@ body {
     font-weight: 600;
 }
 
+.change:hover {
+    color: #766CF1;
+    text-decoration: none;
+}
+
 .btn-payment {
     border-radius: 8px;
     box-shadow: 0px 1px 3px #666666;
@@ -81,10 +86,16 @@ body {
     font-weight: 800;
 }
   
-  .btn-payment:hover {
-    background: #766CF1;
-    text-decoration: none;
-  }
+
+   .btn-payment:hover {
+     cursor: pointer;
+     background: #766CF1;
+     text-decoration: none;
+    }
+  
+   .btn-cancel-order:hover {
+     cursor: pointer;
+    }
 
   .btn-cancel-order {
     color: #7E85A0;
